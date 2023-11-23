@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772645021702",
+    "project_id": "dabble-5d22d",
+    "storage_bucket": "dabble-5d22d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772645021702:android:a7f74a34902e02d1eb3b87",
+        "android_client_info": {
+          "package_name": "id.ac.unp.ft.informatika.proyekdabble"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDDu-HjoSq2L7XAwwkXClW8MrT36ou_oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

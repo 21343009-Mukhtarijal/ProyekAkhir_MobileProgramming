@@ -1,0 +1,38 @@
+<!-- activity_question_detail.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Judul Pertanyaan -->
+    <TextView
+        android:id="@+id/questionTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Pertanyaan"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Daftar Jawaban menggunakan RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/answerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/questionTitleTextView"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Tombol Tambah Jawaban -->
+    <Button
+        android:id="@+id/addAnswerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Tambah Jawaban"
+        android:layout_marginTop="16dp"
+        android:onClick="goToAddAnswer" />
+
+</RelativeLayout>
